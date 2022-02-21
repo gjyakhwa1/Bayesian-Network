@@ -4,7 +4,7 @@ from typing import Union
 
 class Node:
     def __init__(self,randomVariable:Union[DiscreteDistribution,ConditionalProbabilityTable]):
-        self.randomVariable = randomVariable
+        self.randomVariable = randomVariable #can be Discrete Distribution or CPT
         self.name= self.randomVariable.name 
         self.parentNode = None
         self.childNodes=None
@@ -20,10 +20,5 @@ class Node:
             node.childNodes=[]
         node.childNodes.append(self)
     
-    def getParent(self):
-        return self.parentNode
-    
-    def getChild(self):
-        return self.childNodes
 
 
