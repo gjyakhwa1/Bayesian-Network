@@ -1,0 +1,1 @@
+.\env\Scripts\%1 & cls
