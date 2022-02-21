@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 #cmd files
-*.cmd
+virtual.cmd
