@@ -44,8 +44,8 @@ if __name__=="__main__":
     model.addEdge(prize,monty)
     condition={
         'Guest':'A',
-        'Prize':'B',
-        'Monty':None
+        'Prize':None,
+        'Monty':'B'
         
     }
     # print(model.predictProbability(**condition))
