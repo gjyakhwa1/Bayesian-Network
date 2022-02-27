@@ -8,4 +8,3 @@
 - main- run this file for monty hall problem...change the parameters of condition variable for various prediction
 #### For Interactive Ui
 Run the notebook file for interactive UI.
-# Bayesian-Network
